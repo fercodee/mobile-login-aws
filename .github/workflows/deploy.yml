@@ -25,7 +25,9 @@ jobs:
           ./gradlew build -x test
 
       - name: Generate deployment package
-        run: zip -j deploy.zip build/libs/*.jar
+        run: |
+          rm -f build/libs/*-plain.jar
+          zip -j deploy.zip build/libs/*.jar
 
       - name: Deploy to Elastic Beanstalk
         uses: einaregilsson/beanstalk-deploy@v21
