@@ -7,7 +7,7 @@ Servidor Spring Boot em Kotlin responsável por prover uma API REST para autenti
 - **Nome:** Fernando Cordeiro de Freitas
 
 ## Link do Vídeo
-- **Vídeo de Demonstração:** [Adicione o link do YouTube aqui]
+- **Vídeo de Demonstração:** https://youtu.be/QxKnHrb14OU
 
 ## Endpoints Principais
 - `POST /users/login`: Solicita login via telefone e uuid. Retorna 202 com envio de SMS ou 200 caso já validado.
