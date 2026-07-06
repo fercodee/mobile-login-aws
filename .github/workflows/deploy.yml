@@ -35,5 +35,5 @@ jobs:
           application_name: PhoneLoginApp
           environment_name: PhoneLoginApp-env
           version_label: v-${{ github.run_number }}
-          region: us-east-1
+          region: us-east-2
           deployment_package: deploy.zip
